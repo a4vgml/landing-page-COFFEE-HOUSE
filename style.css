@@ -1,0 +1,212 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  background: #E5E5E5;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  background: #FFFFFF;
+  height: 110px;
+  padding: 0 80px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: inherit;
+}
+.nav__logo {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+.menu__item {
+  margin-left: 46px;
+}
+.menu__link {
+  text-decoration: none;
+  line-height: 36px;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+.menu__link:hover {
+  color: #45f1a1;
+  text-decoration: underline;
+}
+
+.home {
+  height: 622px;
+  background: 0 90%/cover url(https://source.unsplash.com/vSuQJKZkt4U/1920x1080) no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home__text {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 89px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.home__text:after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 10px;
+  background: #817070;
+  margin: 7px auto;
+}
+
+.block {
+  padding: 60px 80px;
+}
+.block__title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto 60px;
+}
+.block__content {
+  display: flex;
+}
+
+.story {
+  background: #FFFFFF;
+}
+.story__image {
+  max-width: 600px;
+  flex: 1 1;
+}
+.story__text {
+  flex: 1 1;
+  margin-left: 40px;
+  align-self: center;
+}
+
+.blog {
+  background: #EFEFEF;
+}
+.blog .block__content {
+  margin: 0 -15px;
+}
+
+.card {
+  background: #FFFFFF;
+  padding: 20px;
+  margin: 0 35px;
+}
+.card > * {
+  margin-bottom: 24px;
+}
+.card__title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+.card__text {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.footer__form {
+  height: 337px;
+  padding: 60px;
+  background: #817070;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__form > * {
+  display: block;
+}
+.footer__form label {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.footer__form #email {
+  background: #817070;
+  border: 3px solid #FFFFFF;
+  width: 300px;
+  height: 55px;
+}
+.footer__form #email::-moz-placeholder {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+}
+.footer__form #email:-ms-input-placeholder {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+}
+.footer__form #email, .footer__form #email::placeholder {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+}
+.footer__form .button {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #817070;
+  background: #FFFFFF;
+  border: 0;
+  padding: 13px 34px;
+}
+.footer__form .button:hover {
+  background-color: #45f1a1;
+  cursor: pointer;
+}
+.footer__copyright {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  background: #FFFFFF;
+  padding: 29px 0 14px;
+}/*# sourceMappingURL=style.css.map */
