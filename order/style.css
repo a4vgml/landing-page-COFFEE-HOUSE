@@ -70,7 +70,7 @@ input[type=checkbox]:checked::after {
 }
 
 input[type=number] {
-  width: 130px;
+  width: 80px;
   text-align: center;
 }
 input[type=number]:disabled {
