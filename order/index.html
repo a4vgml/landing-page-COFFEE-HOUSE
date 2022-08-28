@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap" rel="stylesheet">
+    <title>COFFEE HOUSE</title>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">COFFEE HOUSE</a>
+    </header>
+    <div class="wrapper">
+        <main class="main">
+            <div class="name">
+                <input type="text" name="surname" id="surname" placeholder="Введите Фамилию">
+                <input type="text" name="name" id="name" placeholder="Введите Имя">
+            </div>
+            <!-- ul.goods>li*7>(label[for="coffeeChoice$"]>input:checkbox[name="coffee" id="coffeeChoice$" value="80"])+input:number -->
+            <div class="goods">
+                <ul class="coffee">
+                    <li><label for="foodChoice1"><input type="checkbox" name="food" id="foodChoice1" value="80">Эспресо 80р.</label><input type="number" value="0" disabled></li>
+                    <li><label for="foodChoice2"><input type="checkbox" name="food" id="foodChoice2" value="110">Латте 110р.</label><input type="number" value="0" disabled></li>
+                    <li><label for="foodChoice3"><input type="checkbox" name="food" id="foodChoice3" value="120">Капучино 120р.</label><input type="number" value="0" disabled></li>
+                    <li><label for="foodChoice4"><input type="checkbox" name="food" id="foodChoice4" value="90">Американо 90р.</label><input type="number" value="0" disabled></li>
+                </ul>
+                <ul class="cakes">
+                    <li><label for="foodChoice5"><input type="checkbox" name="food" id="foodChoice5" value="80">Шоколадный кекс 80р.</label><input type="number" value="0" disabled></li>
+                    <li><label for="foodChoice6"><input type="checkbox" name="food" id="foodChoice6" value="90">Черничный кекс 90р.</label><input type="number" value="0" disabled></li>
+                    <li><label for="foodChoice7"><input type="checkbox" name="food" id="foodChoice7" value="100">Яблочный тарт 100р.</label><input type="number" value="0" disabled></li>
+                </ul>
+            </div>
+            <p class="total">0</p>
+            <button class="make-order">Оформить заказ</button>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

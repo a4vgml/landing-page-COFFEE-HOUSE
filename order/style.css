@@ -1,0 +1,178 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input::-moz-placeholder {
+  background: #817070;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+input:-ms-input-placeholder {
+  background: #817070;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+body,
+input,
+input::placeholder {
+  background: #817070;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+input {
+  border: 3px solid #FFFFFF;
+  height: 55px;
+}
+input::-moz-placeholder {
+  text-align: center;
+}
+input:-ms-input-placeholder {
+  text-align: center;
+}
+input, input::placeholder, input:focus {
+  text-align: center;
+}
+
+input[type=checkbox] {
+  width: 21px;
+  height: 23px;
+  margin: 16px;
+  opacity: 1;
+}
+input[type=checkbox]::after {
+  content: "";
+  display: inline-block;
+  width: 21px;
+  height: 23px;
+  border: 4px solid #C4C4C4;
+  background: #817070;
+}
+input[type=checkbox]:checked::after {
+  background: rgb(141, 80, 80);
+}
+
+input[type=number] {
+  width: 130px;
+  text-align: center;
+}
+input[type=number]:disabled {
+  opacity: 0.5;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.header {
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+}
+
+.logo {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.name {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 200px;
+}
+.name input {
+  width: 300px;
+}
+.name input:focus::-moz-placeholder {
+  opacity: 0.5;
+}
+.name input:focus:-ms-input-placeholder {
+  opacity: 0.5;
+}
+.name input:focus::placeholder {
+  opacity: 0.5;
+}
+
+.goods {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.goods ul {
+  list-style: none;
+  min-width: 350px;
+}
+.goods li {
+  white-space: nowrap;
+  display: flex;
+  justify-content: space-between;
+  margin: 17px 0;
+}
+
+.total {
+  text-align: center;
+  margin: 30px;
+}
+.total::before {
+  content: "Итого: ";
+}
+.total::after {
+  content: " р.";
+}
+
+.make-order {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #817070;
+  background: #FFFFFF;
+  border: 0;
+  padding: 13px 21px;
+  margin: 35px auto;
+  display: block;
+}
+.make-order:hover {
+  cursor: pointer;
+  background: rgb(141, 80, 80);
+  color: #FFFFFF;
+}/*# sourceMappingURL=style.css.map */
