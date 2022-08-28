@@ -139,6 +139,7 @@ input[type=number] {
 .goods ul {
   list-style: none;
   min-width: 350px;
+  margin: -8.5px 0;
 }
 .goods li {
   white-space: nowrap;
